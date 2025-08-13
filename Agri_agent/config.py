@@ -12,9 +12,9 @@ class Settings:
     FPO_API_KEY: str = os.getenv("FPO_API_KEY", "")                  # Farmer Producer Org / FCI data
 
     # Weather, Water & Environment
-    OPENWEATHER_API_KEY: str = os.getenv("OPENWEATHER_API_KEY", "")  # Weather forecasts
-    CWC_WATER_API_KEY: str = os.getenv("CWC_WATER_API_KEY", "")      # Reservoir & irrigation data
-    IMD_RAINFALL_API_KEY: str = os.getenv("IMD_RAINFALL_API_KEY", "")# Rainfall & climate data
+    OPENWEATHER_API_KEY: str = os.getenv("https://api.openweathermap.org/data/2.5/weather", "cebfe2bfcbc0e2500038f2bf9ba7cf2f")  # Weather forecasts
+    CWC_WATER_API_KEY: str = os.getenv("resource/05c7f8b7-4d9d-4c86-93b3-6a8f8af1dc3c", "579b464db66ec23bdd00000113c18681782c47e1421ddbd587190bd7")      # Reservoir & irrigation data
+    IMD_RAINFALL_API_KEY: str = os.getenv("/resource/6c05cd1b-ed59-40c2-bc31-e314f39c6971", "579b464db66ec23bdd00000113c18681782c47e1421ddbd587190bd7")# Rainfall & climate data
     SATELLITE_API_KEY: str = os.getenv("SATELLITE_API_KEY", "")      # Satellite crop health imagery
 
     # Finance & Economy
